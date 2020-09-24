@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178581709-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-178581709-1');
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Coupon Site</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+        crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/coupon.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="collapse bg-inverse" id="navbarHeader">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 py-4">
+                    <h4 class="text-white">Welcome to Coupon Site!</h4>
+                    <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few
+                        sentences long so folks can pick up some informative tidbits. Then, link them off to some social
+                        networking sites or contact information.</p>
+                </div>
+                <div class="col-sm-4 py-4">
+                    <h4 class="text-white">Contact</h4>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#" class="text-white">Follow on Twitter</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-white">Like on Facebook</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-white">Email me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navbar navbar-inverse bg-inverse">
+        <div class="container d-flex justify-content-between">
+            <a href="index.html" class="navbar-brand">Coupon</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </div>
+
+    <section class="jumbotron text-center">
+        <div class="container">
+            <h1 class="jumbotron-heading jumbotron-heading-home">Welcome to Coupon Site!</h1>
+            <p class="lead text-muted">Save up to $100 a week on what you do every day!</p>
+        </div>
+    </section>
+
+    <div class="coupon text-muted">
+        <div class="container">
+
+            <div class="row">
+
+                <!-- Product -->
+                <div class="card">
+                    <a href="product.html">
+                        <img data-src="holder.js/100px280/thumb" alt="Card image cap">
+                    </a>
+                    <p class="card-text product">
+                        <div class="product container">
+                            <div class="row">
+                                <div class="col">
+                                    <a href="product.html" onclick="onClickProduct(event)" id="product-1" class="name">
+                                        Helicopter Tours for Two
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-8">
+                                    <div class="owner">The Helicopter Company</div>
+                                    <div class="location">Chicago</div>
+                                </div>
+                                <div class="col-4 price">
+                                    $299
+                                </div>
+                            </div>
+                        </div>
+                    </p>
+                </div>
+                <!-- / Product -->
+
+                <!-- Product -->
+                <div class="card">
+                    <a href="product.html">
+                        <img data-src="holder.js/100px280/thumb" alt="Card image cap">
+                    </a>
+                    <p class="card-text product">
+
+                        <div class="product container">
+                            <div class="row">
+                                <div class="col">
+                                    <a href="product.html" onclick="onClickProduct(event)" class="name">
+                                        Halloween Customes
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-8">
+                                    <div class="location">New York</div>
+                                </div>
+                                <div class="col-4 price">
+                                    $29.99
+                                </div>
+                            </div>
+                        </div>
+                    </p>
+                </div>
+                <!-- / Product -->
+
+                <!-- Product -->
+                <div class="card">
+                    <a href="product.html">
+                        <img data-src="holder.js/100px280/thumb" alt="Card image cap">
+                    </a>
+                    <p class="card-text product">
+
+                        <div class="product container">
+                            <div class="row">
+                                <div class="col">
+                                    <a href="product.html" class="name">
+                                        Massage Session at Spa
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-8">
+                                    <div class="owner">Versailles Massage</div>
+                                    <div class="location">Washington DC</div>
+                                </div>
+                                <div class="col-4 price">
+                                    $25.99
+                                </div>
+                            </div>
+                        </div>
+                    </p>
+                </div>
+                <!-- / Product -->
+
+
+                <!-- Product -->
+                <div class="card">
+                    <a href="product.html">
+                        <img data-src="holder.js/100px280/thumb" alt="Card image cap">
+                    </a>
+                    <p class="card-text product">
+                        <div class="product container">
+                            <div class="row">
+                                <div class="col">
+                                    <a href="product.html" class="name">
+                                        Helicopter Tours for Two
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-8">
+                                    <div class="owner">The Helicopter Company</div>
+                                    <div class="location">Chicago</div>
+                                </div>
+                                <div class="col-4 price">
+                                    $299
+                                </div>
+                            </div>
+                        </div>
+                    </p>
+                </div>
+                <!-- / Product -->
+
+                <!-- Product -->
+                <div class="card">
+                    <a href="product.html">
+                        <img data-src="holder.js/100px280/thumb" alt="Card image cap">
+                    </a>
+                    <p class="card-text product">
+
+                        <div class="product container">
+                            <div class="row">
+                                <div class="col">
+                                    <a href="product.html" class="name">
+                                        Halloween Customes
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-8">
+                                    <div class="location">New York</div>
+                                </div>
+                                <div class="col-4 price">
+                                    $29.99
+                                </div>
+                            </div>
+                        </div>
+                    </p>
+                </div>
+                <!-- / Product -->
+
+                <!-- Product -->
+                <div class="card">
+                    <a href="product.html">
+                        <img data-src="holder.js/100px280/thumb" alt="Card image cap">
+                    </a>
+                    <p class="card-text product">
+
+                        <div class="product container">
+                            <div class="row">
+                                <div class="col">
+                                    <a href="product.html" class="name">
+                                        Massage Session at Spa
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-8">
+                                    <div class="owner">Versailles Massage</div>
+                                    <div class="location">Washington DC</div>
+                                </div>
+                                <div class="col-4 price">
+                                    $25.99
+                                </div>
+                            </div>
+                        </div>
+                    </p>
+                </div>
+                <!-- / Product -->
+
+
+                <!-- Product -->
+                <div class="card">
+                    <a href="product.html">
+                        <img data-src="holder.js/100px280/thumb" alt="Card image cap">
+                    </a>
+                    <p class="card-text product">
+                        <div class="product container">
+                            <div class="row">
+                                <div class="col">
+                                    <a href="product.html" class="name">
+                                        Helicopter Tours for Two
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-8">
+                                    <div class="owner">The Helicopter Company</div>
+                                    <div class="location">Chicago</div>
+                                </div>
+                                <div class="col-4 price">
+                                    $299
+                                </div>
+                            </div>
+                        </div>
+                    </p>
+                </div>
+                <!-- / Product -->
+
+                <!-- Product -->
+                <div class="card">
+                    <a href="product.html">
+                        <img data-src="holder.js/100px280/thumb" alt="Card image cap">
+                    </a>
+                    <p class="card-text product">
+
+                        <div class="product container">
+                            <div class="row">
+                                <div class="col">
+                                    <a href="product.html" class="name">
+                                        Halloween Customes
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-8">
+                                    <div class="location">New York</div>
+                                </div>
+                                <div class="col-4 price">
+                                    $29.99
+                                </div>
+                            </div>
+                        </div>
+                    </p>
+                </div>
+                <!-- / Product -->
+
+                <!-- Product -->
+                <div class="card">
+                    <a href="product.html">
+                        <img data-src="holder.js/100px280/thumb" alt="Card image cap">
+                    </a>
+                    <p class="card-text product">
+
+                        <div class="product container">
+                            <div class="row">
+                                <div class="col">
+                                    <a href="product.html" class="name">
+                                        Massage Session at Spa
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-8">
+                                    <div class="owner">Versailles Massage</div>
+                                    <div class="location">Washington DC</div>
+                                </div>
+                                <div class="col-4 price">
+                                    $25.99
+                                </div>
+                            </div>
+                        </div>
+                    </p>
+                </div>
+                <!-- / Product -->
+
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="text-muted">
+        <div class="container">
+            <p class="float-right">
+                <a href="#">Back to top</a>
+            </p>
+            <p>
+                Fake Coupon Site built with
+                <a href="https://getbootstrap.com">Bootstrap</a> by
+                <a href="https://twitter.com/nicotourne">@nicotourne</a>.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+        crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/holder.min.js"></script>
+    <script>
+        $(function () {
+            Holder.addTheme("thumb", { background: "#55595c", foreground: "#eceeef", text: "Thumbnail" });
+        });
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="assets/js/site.js?v=4"></script>
+</body>
+
+</html>
